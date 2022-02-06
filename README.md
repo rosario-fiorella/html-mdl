@@ -1,2 +1,2 @@
-# html-mdl
-Material design light template HTML
+# TEMPLATE HTML
+Material Design Lite template HTML.
