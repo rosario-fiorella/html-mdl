@@ -1,0 +1,1 @@
+Images: "avatar.png", "logo.png", "favicon.png" maked from original image https://pixabay.com/it/illustrations/arancia-cerchio-logo-tondo-1618917/ under license https://pixabay.com/it/service/license/

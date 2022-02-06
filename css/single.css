@@ -1,0 +1,51 @@
+/* Card */
+.mdl-card__title {
+    display: block;
+}
+
+.mdl-card__supporting-text {
+    border-width: 0px;
+}
+
+.metro .mdl-card__supporting-text~.mdl-card__supporting-text,
+.metro .mdl-text__content {
+    border-top-width: 0px;
+}
+
+.mdl-card__img-highlight {
+    box-shadow: 0px 0px 4px #ababab;
+}
+
+.mdl-grid--no-spacing>.mdl-card__media.mdl-cell {
+    padding: 3rem;
+}
+
+.mdl-textfield__input {}
+
+.mdl-comment__layout {
+    color: #777;
+    border-top: 1px solid #ccc;
+    background-image: radial-gradient(#fff, transparent);
+}
+
+.mdl-comment__layout>.mdl-comment__post {
+    padding: 3rem 2rem !important;
+
+}
+
+.mdl-comment__post {}
+
+.mdl-comment__post-comment {
+    border-top: 1px dashed #ccc;
+    padding: 1em;
+}
+
+.mdl-mega-footer__heading {
+    font-family: "Roboto-Regular", Helvetica, sans-serif;
+    padding: 0px;
+    color: #fff;
+}
+
+.mdl-comment__post .mdl-textfield--expandable .mdl-button--icon {
+    top: 32px;
+}

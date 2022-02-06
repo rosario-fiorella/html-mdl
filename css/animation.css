@@ -1,0 +1,170 @@
+/* Transition*/
+/* Persective */
+.metro__posts {
+    -webkit-perspective: 1000px;
+    perspective: 1000px;
+}
+
+/* Target */
+.mdl-card,
+.mdl-card>div {
+    transition: all 1s;
+}
+
+/* Card Flip */
+.metro__posts .mdl-card .mdl-card__backface {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    height: auto;
+    width: auto;
+    background-color: #fff;
+    opacity: 0;
+    -webkit-transform: rotateY(-180deg);
+    transform: rotateY(-180deg);
+}
+
+.metro__posts .mdl-card:not(.not-backface):hover {
+    -webkit-transform: rotateY(180deg);
+    transform: rotateY(180deg);
+}
+
+.metro__posts .mdl-card:not(.not-backface):hover .mdl-card__backface {
+    opacity: 1;
+}
+
+.metro__posts .mdl-card:not(.not-backface):hover .mdl-card__backface+div {
+    opacity: 0;
+}
+
+/* Animation */
+
+/* Nav */
+.mdl-layout__header,
+body::before {
+    -webkit-animation: FadeIn 3s;
+    -webkit-animation-delay: 0s;
+    animation: FadeIn 3s;
+    animation-delay: 0s;
+}
+
+.mdl-layout__header .mdl-layout__header-row>.mdl-logo {
+    -webkit-animation: rotate 3s, Zoom 4s;
+    -webkit-animation-delay: 0.3s, 0s;
+    animation: rotate 3s, Zoom 4s;
+    animation-delay: 0.3s, 0s;
+}
+
+/* Card */
+.metro__posts .mdl-card {
+    -webkit-animation-name: moveTop;
+    -webkit-animation-duration: 3s;
+    -webkit-animation-delay: 0s;
+    animation-name: moveTop;
+    animation-duration: 3s;
+    animation-delay: 0s;
+}
+
+/* Section */
+.mdl-section {
+    -webkit-animation-name: FadeIn;
+    -webkit-animation-duration: 3s;
+    -webkit-animation-delay: 0s;
+    animation-name: FadeIn;
+    animation-duration: 3s;
+    animation-delay: 0s;
+}
+
+/* Move Div Bottom - Top */
+@-webkit-animation-keyframes moveTop {
+    0% {
+        margin-top: 240px;
+    }
+
+    100% {
+        margin-top: 8px;
+    }
+}
+
+@keyframes moveTop {
+    0% {
+        margin-top: 240px;
+    }
+
+    100% {
+        margin-top: 8px;
+    }
+}
+
+/* FadeIn Div*/
+@-webkit-animation-keyframes FadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes FadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+/* Rotate */
+@-webkit-animation-keyframes rotate {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes rotate {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+/* Zoom */
+@-webkit-animation-keyframes Zoom {
+    0% {
+        zoom: 0;
+    }
+
+    50% {
+        zoom: 2;
+    }
+
+    100% {
+        zoom: 0;
+    }
+}
+
+@keyframes Zoom {
+    0% {
+        zoom: 0;
+    }
+
+    50% {
+        zoom: 2;
+    }
+
+    100% {
+        zoom: 0;
+    }
+}
