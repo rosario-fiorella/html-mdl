@@ -3,6 +3,11 @@
     display: block;
 }
 
+/* Media */
+.metro .align-items .mdl-card__media {
+    max-height: 320px;
+}
+
 .mdl-card__supporting-text {
     border-width: 0px;
 }

@@ -31,6 +31,7 @@ body {
 (min-width: 1025px) and (max-width: 2048px) and (max-resolution: 1.5dppx) {
     body::before {
         background-image: url('../images/bg-md.jpg');
+        background-position: center;
     }
 }
 
@@ -89,7 +90,6 @@ body {
 
 /*Navbar*/
 .mdl-layout__header-row .mdl-navigation__link,
-.mdl-layout__header-row .mdl-layout__title,
 .mdl-layout__header .mdl-layout__drawer-button {
     color: #fff;
 }
@@ -132,7 +132,9 @@ h2,
 h3,
 h4,
 h5,
-h6 {
+h6,
+.metro .mdl-typography--display-1,
+.metro .mdl-layout__title {
     font-family: 'Roboto-thin', 'Helvetica', sans-serif;
 }
 
@@ -160,10 +162,24 @@ h6 {
 }
 
 /* Text */
+.metro .mdl-typography--display-1,
+.metro .mdl-typography--display-2,
 .metro .mdl-layout__title {
-    font-family: 'Roboto-Light', sans-serif;
     text-transform: uppercase;
     font-weight: 100;
+}
+
+.mdl-text--bg-dark {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+}
+
+.mdl-text--bg-light {
+    background-color: rgba(255, 255, 255, 1);
+}
+
+.mdl-layout__title {
+    color: #000;
 }
 
 .mdl-text__content {
@@ -297,11 +313,14 @@ h6 {
 }
 
 .metro .mdl-card__supporting-text {
-    width: 100%;
     padding: 16px;
     min-height: 64px;
     display: flex;
     align-items: center;
+}
+
+.metro .not-backface .mdl-card__supporting-text {
+    width: 100%;
 }
 
 .metro .mdl-card__media {
@@ -313,6 +332,7 @@ h6 {
     align-items: flex-end;
     cursor: pointer;
     background-repeat: no-repeat;
+    background-color: #fff;
 }
 
 .metro .mdl-card:not(.not-backface) .mdl-card__media {

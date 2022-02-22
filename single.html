@@ -7,160 +7,44 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
 	<meta name="author" content="">
 	<meta name="description" content="">
-
-	<!-- Title -->
-	<title>Article | Material Metro Design</title>
-
-	<!-- Icon -->
+	<title>Article | Metro Material Design</title>
 	<link rel="shortcut icon" href="images/favicon.png">
 
-	<!--
 	<link rel="stylesheet" href="css/material.min.css">
-	<link rel="stylesheet" href="css/app.css">
 	<link rel="stylesheet" href="css/animation.css">
 	<link rel="stylesheet" href="css/single.css">
-	-->
+	<link rel="stylesheet" href="css/app.css">
+
 	<!-- Css Minify-->
-	<link rel="stylesheet" href="css/app.min.css">
-	<link rel="stylesheet" href="css/single.min.css">
+	<!-- <link rel="stylesheet" href="css/app.min.css"> -->
 </head>
 
-<body>
+<body class="mdl-color-text--grey-800">
 	<div class="metro mdl-layout mdl-js-layout">
-
 
 		<!-- Layout Header -->
 		<header class="mdl-layout__header">
-			<div class="mdl-layout-icon"></div>
-			<div class="mdl-layout__header-row">
-
-				<!-- Logo -->
-				<img src="images/logo.png" class="mdl-logo" alt="Image Logo">
-
-				<!-- Title -->
+			<div class="mdl-layout-icon">
+				<svg xmlns="http://www.w3.org/2000/svg" enable-background="new 0 0 24 24" height="24"
+					viewBox="0 0 24 24" width="24" credit="https://materialui.co/icon/downhill-skiing">
+					<rect fill="none" height="24" width="24" />
+					<path
+						d="M18.5,4.5c0,1.1-0.9,2-2,2s-2-0.9-2-2s0.9-2,2-2S18.5,3.4,18.5,4.5z M15.78,20.9l0.76,0.27c0.62,0.21,1.27,0.33,1.96,0.33 c0.84,0,1.65-0.18,2.38-0.5L22,22.13C20.95,22.68,19.76,23,18.5,23c-0.86,0-1.68-0.14-2.45-0.41L2,17.47l0.5-1.41l6.9,2.51 l1.72-4.44L7.55,10.4C6.66,9.46,6.88,7.93,8,7.28l3.48-2.01c1.1-0.64,2.52-0.1,2.91,1.11l0.33,1.08c0.44,1.42,1.48,2.57,2.83,3.14 L18.07,9l1.43,0.46l-1.12,3.45c-2.45-0.4-4.48-2.07-5.38-4.32l-2.53,1.45l3.03,3.46l-2.22,5.76l3.09,1.12l2.1-6.44h0l0,0 c0.46,0.18,0.94,0.31,1.44,0.41L15.78,20.9z" />
+				</svg>
+			</div>
+			<div class="mdl-layout__header-row mdl-text--bg-light mdl-shadow--2dp">
 				<h1 class="mdl-layout__title">Metro Material Design</h1>
 				<div class="mdl-layout-spacer"></div>
-
-				<!-- Nav -->
-				<nav class="mdl-navigation">
-					<a class="mdl-navigation__link" href="#" title="Title" id="home">
-						<span class="mdl-tooltip mdl-tooltip--large" for="home">Title</span> Home
+				<nav class="mdl-navigation mdl-layout--large-screen-only">
+					<a class="mdl-navigation__link mdl-color-text--grey-800" href="tel:00303331234567">
+						<i class="material-icons">phone</i> +39 3331234567
 					</a>
-					<a class="mdl-navigation__link" title="Title" id="page">
-						<span class="mdl-tooltip mdl-tooltip--large" for="page">Title</span> Page
+					<a class="mdl-navigation__link mdl-color-text--grey-800" href="mailto:mail@example.it">
+						<i class="material-icons">mail</i> mail@example.it
 					</a>
-					<a class="mdl-navigation__link" title="Title" id="update">
-						<span class="mdl-tooltip mdl-tooltip--large" for="update">Title</span> Updates
-					</a>
-					<a class="mdl-navigation__link" title="Title" id="promos">
-						<span class="mdl-tooltip mdl-tooltip--large" for="promos">Title</span> Promos
-					</a>
-					<a class="mdl-navigation__link" title="Title" id="purchases">
-						<span class="mdl-tooltip mdl-tooltip--large" for="purchases">Title</span>
-						<i class="material-icons" role="presentation">shopping_cart</i>
-					</a>
-					<a class="mdl-navigation__link" title="Title" id="social">
-						<span class="mdl-tooltip mdl-tooltip--large" for="social">Title</span>
-						<i class="material-icons" role="presentation">people</i>
-					</a>
-					<a class="mdl-navigation__link" title="Title" id="login">
-						<span class="mdl-tooltip mdl-tooltip--large" for="login">Title</span>
-						<i class="material-icons" role="presentation">lock</i>
-					</a>
-					<div class="mdl-layout-spacer"></div>
 				</nav>
-
-				<!-- Search -->
-				<div
-					class="mdl-textfield mdl-js-textfield mdl-textfield--expandable mdl-textfield--floating-label mdl-textfield--align-right">
-					<label class="mdl-button mdl-js-button mdl-button--icon" for="fixed-header-drawer-exp">
-						<i class="material-icons">search</i>
-					</label>
-					<div class="mdl-textfield__expandable-holder">
-						<input class="mdl-textfield__input" type="text" name="sample" id="fixed-header-drawer-exp">
-					</div>
-				</div>
 			</div>
 		</header>
-
-		<!-- Aside -->
-		<aside class="mdl-layout__drawer">
-			<!-- Header Image -->
-			<div class="mdl-card mdl-shadow--2dp not-backface">
-				<!-- Logo -->
-				<div class="mdl-card--expand">
-					<div class="mdl-card__media mdl-color--white">
-						<img src="images/logo.png" class="mdl-card__img-highlight" alt="Image Card">
-					</div>
-				</div>
-				<!-- search -->
-				<div class="mdl-card__actions mdl-card--border">
-					<div
-						class="mdl-textfield mdl-js-textfield mdl-textfield--expandable mdl-textfield--floating-label mdl-textfield--align-right">
-						<label class="mdl-button mdl-js-button mdl-button--icon" for="fixed-header-drawer-aside">
-							<i class="material-icons">search</i>
-						</label>
-						<div class="mdl-textfield__expandable-holder">
-							<input class="mdl-textfield__input" type="text" name="sample"
-								id="fixed-header-drawer-aside">
-						</div>
-					</div>
-					<div class="mdl-layout-spacer"></div>
-				</div>
-			</div>
-
-			<!-- Navigation -->
-			<nav class="mdl-navigation nav-device">
-				<a class="mdl-navigation__link" href="#" title="Title" id="home-1">
-					<span class="mdl-tooltip mdl-tooltip--large" for="home-1">Title</span>
-					<i class="mdl-color-text--blue-grey-400 material-icons" role="presentation">home</i>Home
-				</a>
-				<a class="mdl-navigation__link" title="Title" id="page-1">
-					<span class="mdl-tooltip mdl-tooltip--large" for="page-1">Title</span>
-					<i class="mdl-color-text--blue-grey-400 material-icons" role="presentation">content_copy</i>Page
-				</a>
-				<a class="mdl-navigation__link" title="Title" Id="update-1">
-					<span class="mdl-tooltip mdl-tooltip--large" for="update-1">Title</span>
-					<i class="mdl-color-text--blue-grey-400 material-icons" role="presentation">flag</i>Updates
-				</a>
-				<a class="mdl-navigation__link" title="Title" id="promos-1">
-					<span class="mdl-tooltip mdl-tooltip--large" for="promos-1">Title</span>
-					<i class="mdl-color-text--blue-grey-400 material-icons" role="presentation">local_offer</i>Promos
-				</a>
-				<a class="mdl-navigation__link" title="Title" id="purchases-1">
-					<span class="mdl-tooltip mdl-tooltip--large" for="purchases-1">Title</span>
-					<i class="mdl-color-text--blue-grey-400 material-icons"
-						role="presentation">shopping_cart</i>Purchases
-				</a>
-				<a class="mdl-navigation__link" title="Title" id="social-1">
-					<span class="mdl-tooltip mdl-tooltip--large" for="social-1">Title</span>
-					<i class="mdl-color-text--blue-grey-400 material-icons" role="presentation">people</i>Social
-				</a>
-				<a class="mdl-navigation__link" title="Title" id="login-1">
-					<span class="mdl-tooltip mdl-tooltip--large" for="login-1">Title</span>
-					<i class="mdl-color-text--blue-grey-400 material-icons" role="presentation">lock</i> Login
-				</a>
-				<div class="mdl-layout-spacer"></div>
-			</nav>
-
-			<nav class="mdl-navigation">
-				<a class="mdl-navigation__link" href="#" title="Title" id="cat-1">
-					<i class="material-icons" role="presentation">chat_bubble</i>
-					<span class="mdl-tooltip mdl-tooltip--large" for="cat-1">Title</span> Category
-				</a>
-				<a class="mdl-navigation__link active" href="#" title="Title" id="cat-2">
-					<i class="material-icons" role="presentation">add_a_photo</i>
-					<span class="mdl-tooltip mdl-tooltip--large" for="cat-2">Title</span> Category
-				</a>
-				<a class="mdl-navigation__link" href="#" title="Title" id="cat-3">
-					<i class="material-icons" role="presentation">camera_roll</i>
-					<span class="mdl-tooltip mdl-tooltip--large" for="cat-3">Title</span> Category
-				</a>
-				<div class="mdl-layout-spacer"></div>
-			</nav>
-
-		</aside>
-
 		<!-- Main -->
 		<main class="mdl-layout__content">
 
@@ -169,56 +53,9 @@
 
 				<!-- Header -->
 				<header class="metro__posts mdl-card align-items not-backface">
-					<!-- Card Media -->
 					<div class="mdl-card__media mdl-color--white mdl-color-text--grey-600">
-						<img src="images/bg-card.jpg" alt="Image Card">
+						<img src="images/card-7.jpg" alt="Image Card">
 					</div>
-
-					<!-- Card Action -->
-					<div class="mdl-card__actions mdl-card__supporting-text mdl-card--border">
-						<div class="mdl-typography--text-left">
-
-							<a href="#" class="mdl-navigation__link">
-								<span class="mdl-button--primary">
-									<i class="material-icons">people</i>
-								</span>
-							</a>
-
-							<a href="#" class="mdl-navigation__link">
-								<span class="mdl-button mdl-button--primary">
-									<i class="material-icons">rss_feed</i>
-								</span>
-							</a>
-
-							<a href="#" class="mdl-navigation__link">
-								<span class="mdl-button--primary">
-									<i class="material-icons">chat</i>
-								</span>
-								<span class="mdl-badge" data-badge="12"></span>
-							</a>
-						</div>
-
-						<div class="mdl-layout-spacer"></div>
-
-						<div class="mdl-typography--text-right">
-
-							<a href="#" class="mdl-button mdl-navigation__link">
-								<span class="mdl-button--primary">
-									<i class="material-icons">star</i>
-									<i class="material-icons">star</i>
-									<i class="material-icons">star</i>
-									<i class="material-icons">star</i>
-								</span>
-							</a>
-							<a href="#" class="mdl-navigation__link">
-								<span class="mdl-button--primary">
-									<i class="material-icons">shopping_cart</i>
-								</span>
-								<span class="mdl-badge" data-badge="3"></span>
-							</a>
-						</div>
-					</div>
-
 				</header>
 
 				<!-- Body Article -->
@@ -237,16 +74,16 @@
 							</div>
 							<div class="mdl-cell mdl-cell--6-col mdl-cell--8-col-tablet mdl-cell--4-col-phone">
 								<div class="mdl-grid">
-									<img src="images/bg-sm.jpg"
+									<img src="images/card-1.jpg"
 										class="mdl-card__img-highlight mdl-cell mdl-cell--6-col mdl-cell--4-col-tablet mdl-cell--4-col-phone"
 										alt="Image Card">
-									<img src="images/bg-sm.jpg"
+									<img src="images/card-2.jpg"
 										class="mdl-card__img-highlight mdl-cell mdl-cell--6-col mdl-cell--4-col-tablet mdl-cell--4-col-phone"
 										alt="Image Card">
-									<img src="images/bg-sm.jpg"
+									<img src="images/card-3.jpg"
 										class="mdl-card__img-highlight mdl-cell mdl-cell--6-col mdl-cell--4-col-tablet mdl-cell--4-col-phone"
 										alt="Image Card">
-									<img src="images/bg-sm.jpg"
+									<img src="images/card-4.jpg"
 										class="mdl-card__img-highlight mdl-cell mdl-cell--6-col mdl-cell--4-col-tablet mdl-cell--4-col-phone"
 										alt="Image Card">
 								</div>
@@ -295,7 +132,7 @@
 
 				<!-- Row -->
 				<div class="mdl-card metro__posts not-backface mdl-grid mdl-grid--no-spacing">
-					<div style="background-image:url(images/bg-card.jpg);"
+					<div style="background-image:url(images/card-5.jpg);"
 						class="mdl-card__media mdl-cell mdl-cell--12-col mdl-color-text--grey-50">
 						<h2>Cillum dolor esse sit incididunt velit eiusmod magna ad nostrud officia aute dolor dolor
 						</h2>
@@ -316,10 +153,10 @@
 							</div>
 							<div class="mdl-cell mdl-cell--6-col mdl-cell--8-col-tablet mdl-cell--4-col-phone">
 								<div class="mdl-grid">
-									<img src="images/bg-sm.jpg"
+									<img src="images/card-1.jpg"
 										class="mdl-card__img-highlight mdl-cell mdl-cell--6-col mdl-cell--4-col-tablet mdl-cell--4-col-phone"
 										alt="Image Card">
-									<img src="images/bg-sm.jpg"
+									<img src="images/card-2.jpg"
 										class="mdl-card__img-highlight mdl-cell mdl-cell--6-col mdl-cell--4-col-tablet mdl-cell--4-col-phone"
 										alt="Image Card">
 								</div>
@@ -331,10 +168,10 @@
 						<div class="mdl-grid">
 							<div class="mdl-cell mdl-cell--6-col mdl-cell--8-col-tablet mdl-cell--4-col-phone">
 								<div class="mdl-grid">
-									<img src="images/bg-sm.jpg"
+									<img src="images/card-1.jpg"
 										class="mdl-card__img-highlight mdl-cell mdl-cell--6-col mdl-cell--4-col-tablet mdl-cell--4-col-phone"
 										alt="Image Card">
-									<img src="images/bg-sm.jpg"
+									<img src="images/card-2.jpg"
 										class="mdl-card__img-highlight mdl-cell mdl-cell--6-col mdl-cell--4-col-tablet mdl-cell--4-col-phone"
 										alt="Image Card">
 								</div>
@@ -367,7 +204,7 @@
 						<!-- Meta Comment -->
 						<div class="meta meta--fill">
 							<!-- User Col Left -->
-							<img src="images/avatar.png" alt="user" class="">
+							<i class="material-icons">people</i>
 							<a href="#" class="mdl-navigation__link" title="Link Title">
 								<strong>Lorem Ipsum</strong>
 								<span>4 Days Ago, 20:04</span>
@@ -417,7 +254,7 @@
 						<!-- Meta Comment -->
 						<div class="meta meta--fill">
 							<!-- User Col Left -->
-							<img src="images/avatar.png" alt="user" class="">
+							<i class="material-icons">people</i>
 							<a href="#" class="mdl-navigation__link" title="Link Title">
 								<strong>Lorem Ipsum</strong>
 								<span>2 Days Ago, 12:25</span>
@@ -467,7 +304,7 @@
 						<!-- Meta Comment -->
 						<div class="meta meta--fill">
 							<!-- User Col Left -->
-							<img src="images/avatar.png" alt="user" class="">
+							<i class="material-icons">people</i>
 							<a href="#" class="mdl-navigation__link" title="Link Title">
 								<strong>Lorem Ipsum</strong>
 								<span>2 Days Ago, 15:58</span>
@@ -512,10 +349,14 @@
 					<!-- col -->
 					<div class="mdl-card mdl-cell mdl-cell--6-col mdl-cell--4-col-tablet mdl-cell--4-col-phone">
 						<!-- Card Media -->
-						<div style="background-image:url(images/bg-card.jpg);"
+						<div style="background-image:url(images/card-5.jpg);"
 							class="mdl-card__media mdl-color-text--grey-50">
-							<h3><a href="#" class="mdl-button"><i class="material-icons">keyboard_arrow_left</i> Lorem
-									Ipsum</a></h3>
+							<h3>
+								<a href="#" class="mdl-button">
+									<i class="material-icons">keyboard_arrow_left</i> Lorem
+									Ipsum
+								</a>
+							</h3>
 						</div>
 						<!-- Transition mdl-card__backface Card -->
 						<div class="mdl-card__backface">
@@ -536,12 +377,6 @@
 								<a href="#" class="mdl-color-text--grey-600 mdl-button mdl-js-button mdl-button--icon">
 									<i class="material-icons">chat</i>
 								</a>
-								<a href="#" class="mdl-color-text--grey-600 mdl-button mdl-js-button mdl-button--icon">
-									<i class="material-icons">shopping_cart</i>
-								</a>
-								<a href="#" class="mdl-color-text--grey-600 mdl-button mdl-js-button mdl-button--icon">
-									<i class="material-icons">email</i>
-								</a>
 							</div>
 						</div>
 					</div>
@@ -549,7 +384,7 @@
 					<!-- col -->
 					<div class="mdl-card mdl-cell mdl-cell--6-col mdl-cell--4-col-tablet mdl-cell--4-col-phone">
 						<!-- Card Media -->
-						<div style="background-image:url(images/bg-card.jpg);"
+						<div style="background-image:url(images/card-6.jpg);"
 							class="mdl-card__media mdl-color-text--grey-50">
 							<h3 class="mdl-typography--text-right" style="width:100%;"><a href="#"
 									class="mdl-button">Lorem Ipsum <i
@@ -574,264 +409,50 @@
 								<a href="#" class="mdl-color-text--grey-600 mdl-button mdl-js-button mdl-button--icon">
 									<i class="material-icons">chat</i>
 								</a>
-								<a href="#" class="mdl-color-text--grey-600 mdl-button mdl-js-button mdl-button--icon">
-									<i class="material-icons">shopping_cart</i>
-								</a>
-								<a href="#" class="mdl-color-text--grey-600 mdl-button mdl-js-button mdl-button--icon">
-									<i class="material-icons">email</i>
-								</a>
 							</div>
 						</div>
 					</div>
 				</div>
-
-				<!-- Footer -->
-				<footer class="mdl-margin__top">
-					<!-- Row -->
-					<div class="metro__posts mdl-grid mdl-grid--no-spacing">
-
-						<!-- col -->
-						<div
-							class="mdl-cell mdl-cell--12-col mdl-cell--8-col-tablet mdl-cell--4-col-phone mdl-color--white">
-							<div class="mdl-grid">
-								<div class="mdl-cell mdl-cell--6-col mdl-cell--8-col-tablet mdl-cell--4-col-phone">
-									<h4 class="mdl-typography--text-left">Lorem Ipsum Dolor Sit Amet Velit</h4>
-									<p>Cillum dolor esse sit incididunt velit eiusmod magna ad nostrud officia aute
-										dolor dolor. Magna esse ullamco pariatur adipisicing consectetur eu commodo
-										officia. </p>
-								</div>
-								<div class="mdl-cell mdl-cell--6-col mdl-cell--8-col-tablet mdl-cell--4-col-phone">
-									<div class="mdl-grid mdl-typography--text-center">
-										<div
-											class="mdl-cell mdl-cell--6-col mdl-cell--4-col-tablet mdl-cell--4-col-phone">
-											<i
-												class="mdl-button--colored mdl-button--accent material-icons mdl-icon__lg-2">done</i>
-											<h5>Lorem Ipsum Dolor Sit Amet Velit</h5>
-										</div>
-										<div
-											class="mdl-cell mdl-cell--6-col mdl-cell--4-col-tablet mdl-cell--4-col-phone">
-											<i
-												class="mdl-button--colored mdl-button--accent material-icons mdl-icon__lg-2">call_split</i>
-											<h5>Lorem Ipsum Dolor Sit Amet Velit</h5>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-
-						<!-- col -->
-						<div class="mdl-card mdl-cell mdl-cell--3-col mdl-cell--4-col-tablet mdl-cell--4-col-phone">
-							<!-- Card Media -->
-							<div style="background-image:url(images/bg-card.jpg);"
-								class="mdl-card__media mdl-color-text--grey-50">
-								<h3><a href="#">Lorem Ipsum</a></h3>
-							</div>
-							<!-- Transition mdl-card__backface Card -->
-							<div class="mdl-card__backface">
-								<div
-									class="mdl-color-text--grey-600 mdl-card__supporting-text mdl-js-button mdl-js-ripple-effect">
-									Enim labore aliqua consequat ut quis ad occaecat aliquip incididunt. Sunt nulla eu
-									enim irure enim nostrud aliqua consectetur ad consectetur sunt ullamco officia. Ex
-									officia laborum et consequat duis.
-								</div>
-
-								<!-- Footer Card -->
-								<div class="mdl-card__supporting-text meta meta--fill mdl-color-text--grey-600">
-									<a href="#" class="mdl-navigation__link" title="Link Title"><strong>Lorem
-											Ipsum</strong></a>
-									<div class="mdl-layout-spacer"></div>
-									<a href="#"
-										class="mdl-color-text--grey-600 mdl-button mdl-js-button mdl-button--icon">
-										<i class="material-icons">chat</i>
-									</a>
-									<a href="#"
-										class="mdl-color-text--grey-600 mdl-button mdl-js-button mdl-button--icon">
-										<i class="material-icons">shopping_cart</i>
-									</a>
-									<a href="#"
-										class="mdl-color-text--grey-600 mdl-button mdl-js-button mdl-button--icon">
-										<i class="material-icons">email</i>
-									</a>
-								</div>
-							</div>
-						</div>
-
-						<!-- col -->
-						<div class="mdl-card mdl-cell mdl-cell--3-col mdl-cell--4-col-tablet mdl-cell--4-col-phone">
-							<!-- Card Media -->
-							<div style="background-image:url(images/bg-card.jpg);"
-								class="mdl-card__media mdl-color-text--grey-50">
-								<h3><a href="#">Lorem Ipsum</a></h3>
-							</div>
-							<!-- Transition mdl-card__backface Card -->
-							<div class="mdl-card__backface">
-								<div
-									class="mdl-color-text--grey-600 mdl-card__supporting-text mdl-js-button mdl-js-ripple-effect">
-									Enim labore aliqua consequat ut quis ad occaecat aliquip incididunt. Sunt nulla eu
-									enim irure enim nostrud aliqua consectetur ad consectetur sunt ullamco officia. Ex
-									officia laborum et consequat duis.
-								</div>
-								<!-- Footer Card -->
-								<div class="mdl-card__supporting-text meta meta--fill mdl-color-text--grey-600">
-									<a href="#" class="mdl-navigation__link" title="Link Title"><strong>Lorem
-											Ipsum</strong></a>
-									<div class="mdl-layout-spacer"></div>
-									<a href="#"
-										class="mdl-color-text--grey-600 mdl-button mdl-js-button mdl-button--icon">
-										<i class="material-icons">chat</i>
-									</a>
-									<a href="#"
-										class="mdl-color-text--grey-600 mdl-button mdl-js-button mdl-button--icon">
-										<i class="material-icons">shopping_cart</i>
-									</a>
-									<a href="#"
-										class="mdl-color-text--grey-600 mdl-button mdl-js-button mdl-button--icon">
-										<i class="material-icons">email</i>
-									</a>
-								</div>
-							</div>
-						</div>
-
-						<!-- col -->
-						<div class="mdl-card mdl-cell mdl-cell--3-col mdl-cell--4-col-tablet mdl-cell--4-col-phone">
-							<!-- Card Media -->
-							<div style="background-image:url(images/bg-card.jpg);"
-								class="mdl-card__media mdl-color-text--grey-50">
-								<h3><a href="#">Lorem Ipsum</a></h3>
-							</div>
-							<!-- Transition mdl-card__backface Card -->
-							<div class="mdl-card__backface">
-								<div
-									class="mdl-color-text--grey-600 mdl-card__supporting-text mdl-js-button mdl-js-ripple-effect">
-									Enim labore aliqua consequat ut quis ad occaecat aliquip incididunt. Sunt nulla eu
-									enim irure enim nostrud aliqua consectetur ad consectetur sunt ullamco officia. Ex
-									officia laborum et consequat duis.
-								</div>
-								<!-- Footer Card -->
-								<div class="mdl-card__supporting-text meta meta--fill mdl-color-text--grey-600">
-									<a href="#" class="mdl-navigation__link" title="Link Title"><strong>Lorem
-											Ipsum</strong></a>
-									<div class="mdl-layout-spacer"></div>
-									<a href="#"
-										class="mdl-color-text--grey-600 mdl-button mdl-js-button mdl-button--icon">
-										<i class="material-icons">chat</i>
-									</a>
-									<a href="#"
-										class="mdl-color-text--grey-600 mdl-button mdl-js-button mdl-button--icon">
-										<i class="material-icons">shopping_cart</i>
-									</a>
-									<a href="#"
-										class="mdl-color-text--grey-600 mdl-button mdl-js-button mdl-button--icon">
-										<i class="material-icons">email</i>
-									</a>
-								</div>
-							</div>
-						</div>
-
-						<!-- col -->
-						<div class="mdl-card mdl-cell mdl-cell--3-col mdl-cell--4-col-tablet mdl-cell--4-col-phone">
-							<!-- Card Media -->
-							<div style="background-image:url(images/bg-card.jpg);"
-								class="mdl-card__media mdl-color-text--grey-50">
-								<h3><a href="#">Lorem Ipsum</a></h3>
-							</div>
-							<!-- Transition mdl-card__backface Card -->
-							<div class="mdl-card__backface">
-								<div
-									class="mdl-color-text--grey-600 mdl-card__supporting-text mdl-js-button mdl-js-ripple-effect">
-									Enim labore aliqua consequat ut quis ad occaecat aliquip incididunt. Sunt nulla eu
-									enim irure enim nostrud aliqua consectetur ad consectetur sunt ullamco officia. Ex
-									officia laborum et consequat duis.
-								</div>
-								<!-- Footer Card -->
-								<div class="mdl-card__supporting-text meta meta--fill mdl-color-text--grey-600">
-									<a href="#" class="mdl-navigation__link" title="Link Title"><strong>Lorem
-											Ipsum</strong></a>
-									<div class="mdl-layout-spacer"></div>
-									<a href="#"
-										class="mdl-color-text--grey-600 mdl-button mdl-js-button mdl-button--icon">
-										<i class="material-icons">chat</i>
-									</a>
-									<a href="#"
-										class="mdl-color-text--grey-600 mdl-button mdl-js-button mdl-button--icon">
-										<i class="material-icons">shopping_cart</i>
-									</a>
-									<a href="#"
-										class="mdl-color-text--grey-600 mdl-button mdl-js-button mdl-button--icon">
-										<i class="material-icons">email</i>
-									</a>
-								</div>
-							</div>
-						</div>
-					</div>
-
-				</footer>
 			</article>
 
 			<!-- Footer -->
-			<div class="mdl-margin__top">
-				<div class="metro__posts mdl-grid mdl-grid--no-spacing">
-					<footer class="mdl-cell mdl-cell--12-col mdl-cell--4-col-phone mdl-mega-footer mdl-color--accent">
-						<div class="mdl-mega-footer__middle-section mdl-typography--text-center mdl-color-text--white">
-							<!-- Col -->
-							<div class="mdl-mega-footer__drop-down-section">
-								<input class="mdl-mega-footer__heading-checkbox" type="checkbox" checked>
-								<h1 class="mdl-mega-footer__heading">Features</h1>
-								<ul class="mdl-mega-footer__link-list">
-									<li><a href="#">About</a></li>
-									<li><a href="#">Terms</a></li>
-									<li><a href="#">Partners</a></li>
-									<li><a href="#">Updates</a></li>
+			<div class="metro__posts mdl-grid mdl-grid--no-spacing">
+				<div class="mdl-cell mdl-cell--12-col mdl-cell--4-col-phone">
+					<footer class="mdl-mini-footer">
+						<!-- column left -->
+						<div class="mdl-mini-footer__left-section">
+							<div>
+								<ul class="mdl-mini-footer__link-list">
+									<li><a href="index.html">Home</a></li>
+									<li><a href="page.html">Page</a></li>
+									<li><a href="single.html">Article</a></li>
 								</ul>
 							</div>
-							<!-- Col -->
-							<div class="mdl-mega-footer__drop-down-section">
-								<input class="mdl-mega-footer__heading-checkbox" type="checkbox" checked>
-								<h1 class="mdl-mega-footer__heading">Details</h1>
-								<ul class="mdl-mega-footer__link-list">
-									<li><a href="#">Specs</a></li>
-									<li><a href="#">Tools</a></li>
-									<li><a href="#">Resources</a></li>
-								</ul>
-							</div>
-							<!-- Col -->
-							<div class="mdl-mega-footer__drop-down-section">
-								<input class="mdl-mega-footer__heading-checkbox" type="checkbox" checked>
-								<h1 class="mdl-mega-footer__heading">Technology</h1>
-								<ul class="mdl-mega-footer__link-list">
-									<li><a href="#">How it works</a></li>
-									<li><a href="#">Patterns</a></li>
-									<li><a href="#">Usage</a></li>
-									<li><a href="#">Products</a></li>
-									<li><a href="#">Contracts</a></li>
-								</ul>
-							</div>
-							<!-- Col -->
-							<div class="mdl-mega-footer__drop-down-section">
-								<input class="mdl-mega-footer__heading-checkbox" type="checkbox" checked>
-								<h1 class="mdl-mega-footer__heading">FAQ</h1>
-								<ul class="mdl-mega-footer__link-list">
-									<li><a href="#">Questions</a></li>
-									<li><a href="#">Answers</a></li>
-									<li><a href="#">Contact us</a></li>
-								</ul>
-							</div>
+							<div class="mdl-typography--font-light">&copy; 2017 | All right Reserved</div>
+						</div>
+						<!-- column right -->
+						<div class="mdl-mini-footer__right-section">
+							<button class="mdl-mini-footer__social-btn mdl-button mdl-button--icon mdl-color--white">
+								<i class="material-icons">share</i>
+							</button>
 						</div>
 					</footer>
 				</div>
 			</div>
-
 		</main>
 		<div class="mdl-layout__obfuscator"></div>
 	</div>
-	<!--
-	<script src="js/jquery-3.1.1.min.js"></script>
-	<script src="js/material.min.js"></script>
-	<script src="js/jquery.nicescroll.min.js"></script>
-	<script src="js/app.js"></script> 
+
+	<!-- 
+		include js not minify
+		<script src="js/jquery-3.1.1.min.js"></script>
+		<script src="js/app.js"></script> 
 	-->
-	<!-- Script Minify -->
-	<script src="js/app.min.js"></script>
+
+	<!-- 
+		include js minify
+		<script src="js/app.min.js"></script> 
+	-->
 </body>
 
 </html>
