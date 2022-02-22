@@ -26,7 +26,7 @@
     box-shadow: none;
 }
 
-.mdl-grid>.mdl-cell:not(.mdl-card__img-highlight) {
+.mdl-section--page .mdl-grid>.mdl-cell:not(.mdl-card__img-highlight) {
     padding: 1em;
 }
 
